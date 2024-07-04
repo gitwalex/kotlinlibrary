@@ -37,6 +37,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.androidx.datastore.core.android)
+    implementation(libs.androidx.datastore.preferences.core.jvm)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
